@@ -3,6 +3,7 @@ package studentcalc;
 public class StudentCalc {
 
     public static void main(String[] args) {
+        // This is a comment that is edited on the remote repo
         double[] studentGrades = {71, 38, 91, 30, 94, 36, 85, 8, 23, 58};
         var average = avgCalc(studentGrades);
         System.out.println(average);
